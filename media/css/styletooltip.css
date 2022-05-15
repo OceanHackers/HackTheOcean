@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+ul li{
+    position: absolute;
+    bottom: 80px;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: #777;
+    margin: 0 20px;
+    border-radius: 50%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+ul li:hover{
+    background: #3097bf;
+    box-shadow: 0 0 0 4px #fff,
+                0 0 0 6px #3097bf;
+}
+
+ul li .content{
+    position: absolute;
+    bottom:55px ;
+    width: 400px;
+    background: #111;
+    padding: 20px;
+    border-radius: 15px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    transform: translateX(-50%) translateY(-50px);
+}
+
+
+ul li .content:before{
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: #111;
+    bottom: -15px;
+    left: 215px;
+    transform: rotate(45deg);
+
+}
+
+ul li:hover .content{
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(-50%) translateY(0px);
+}
+
+ul li h3,
+ul li p{
+    position: relative;
+    color: #fff;
+    text-align: justify;
+}
+
+ul li img{
+    position:relative;
+    width: 100%;
+    border-radius: 15px;
+}
+
+ul li button{
+    position: relative;
+    left: 100px;
+    height: 40px;
+    width: 50%;
+    text-align: center;
+    border-radius: 15px;
+    background-color: red;
+    color: #fff;
+    font-size: 20px;
+}
+
+ul li button:hover{
+    transform: scale(1.1);
+    
+}
+
+.container{
+    position:absolute;
+    top: 10px;
+    width: 400px;
+    height: 450px;
+    border-radius: 10px;
+    background:#30bf3c;
+}
