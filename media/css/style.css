@@ -1,110 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 body{
     margin: 0;
     padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-family: "Roboto Slab", serif;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif ; */
     height: 100vh;
 
-}
-.background{
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-.title{
-    color: white;
-    font-size: 50px;
-    padding: 50px;
-}
-
-.imagen{
-    position: absolute;
-    transform: translate(20%,-10%);
-}
-
-.imagen img{
-    border-radius: 45%;
-}
-
-.login{
-    width: 390px;
-    height: 240px;
-    background: #fff;
-    color:#000 ;
-    top: 50%;
-    left: 50%;
-    position: absolute;
-    transform: translate(70%,-50%);
-    padding: 70px 30px;
-    border-radius:15px ;
-}
-
-.logo{
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    position: absolute;
-    top: -60px;
-    left: calc(50% - 50px);
-}
-
-.login h2{
-    margin: 0;
-    padding: 0 0 20px;
-    font-size: 25px;
-    text-align: center;
-}
-
-.login label{
-    margin: 0;
-    padding: 0;
-    font-weight: bold;
-    display: block;
-}
-
-.login input{
-    width: 100%;
-    margin-bottom: 30px;
-
-}
-
-.login input[type="text"],
-.login input[type="password"]{
-    border: none;
-    border-bottom: 1px solid #fff;
-    background: transparent;
-    outline: none;
-    color: #000;
-    font-size: 16px;
-}
-
-.login input[type="submit"]{
-    
-    margin-top: 15px;
-    border: none;
-    outline: none;
-    height: 40px;
-    background:#3097bf ;
-    color: #fff;
-    font-size: 18px;
-    border-radius: 15px;
-}
-.login input[type="submit"]:hover{
-    transform: scale(1.1);
-}
-
-.login a{
-    margin: 35px;
-    text-decoration: none;
-    font-size: 14px;
-    line-height: 20px;
-    color: darkgrey;
-}
-
-.login a:hover{
-    color: #3097bf;
 }
 

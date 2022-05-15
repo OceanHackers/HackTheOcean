@@ -5,7 +5,8 @@
 }
 
 body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Roboto Slab", serif;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
     background-color: #edeef6;
     display: flex;
     align-items: center;
