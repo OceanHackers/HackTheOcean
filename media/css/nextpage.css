@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.izquierda{
+    height: 100vh;
+    width: 50%;
+}
+
+.derecha{
+    background:url(./MexicoMaps.png);
+    background-size:cover ;
+    background-position: center;
+    width: 50%;
+    height: 100vh;
+}
+
+i {
+    margin: 15px;
+    font-size: 45px;
+    cursor: pointer;
+}
+
+i:hover{
+    transform: scale(1.1);
+}
+
+.boton1{
+    margin: 5px;
+    background:#fcab10;
+    height: 30px;
+    width: 150px;
+    border-radius: 15px;
+    border: none;
+    color:#fff;
+    
+}
+
+.boton2{
+    margin: 5px;
+    background:#44af69;
+    height: 30px;
+    width: 150px;
+    border-radius: 15px;
+    border: none;
+    color:#fff;
+}
+
+button{
+    position: relative;
+    left: 600px;
+}
+
+button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+
+#pantalla_dividida{
+    display: flex;
+}
+
+h1{
+    font-size: 30px;
+    width: 50%;
+}
+
+p {
+    display: inline-block;
+    font-size: 17px;
+    line-height: 30px;
+    width: 50%;
+   }
+
