@@ -32,7 +32,7 @@ sobre qué acciones tomar y adquirir inmunidad contra **el malware**, te invitam
 | Informacion | URL |
 | --- | --- |
 | Ocean Hackers Presentation | [Link a la Presentacion](https://www.canva.com/design/DAFAsNz8w00/3l_UBe1R1rZp5bMMzp5L3Q/view?website#2:un-malware-se-ha-infiltrado-en-nuestros-oc-anos-y-esta-comprometiendo-su-sistema) |
-| Desing Concept | [Link a Figma](https://www.figma.com/file/exfIiT36KUctyYsiOetjrG/HackTheOcean---Design-concept?node-id=0%3A1) |
+| Design Concept | [Link a Figma](https://www.figma.com/file/exfIiT36KUctyYsiOetjrG/HackTheOcean---Design-concept?node-id=0%3A1) |
 | TikTok | [Link al TikTok](https://vm.tiktok.com/ZMLc3VxX4/?k=1) |
 
 
@@ -46,7 +46,7 @@ La base de datos fue implementada con mySQL y funcionando online en los servicio
 ![image](https://user-images.githubusercontent.com/53382424/168626760-5cbf3e9b-c279-40b2-8e24-fbf382442c73.png)
 
 #### Backend (API con Node.js)
-Para realizar la conexión con dicha base de datos realizamos una API en **node.js**, la cual se intento subir a los servicios de [@Azure](https://github.com/azure) , no obstante no hubo entendimiento y terminamos realizandolo con otros grupo de compañeros hackers conocidos como [@Heroku](https://github.com/heroku) . [El siguiente es el enlace a la API realizada](https://oceanhackersapi.herokuapp.com/)
+Para realizar la conexión con dicha base de datos realizamos una API en **node.js**, la cual se intento subir a los servicios de [@Azure](https://github.com/azure) , no obstante no hubo entendimiento y terminamos realizandolo con otros grupo de compañeros hackers conocidos como [@Heroku](https://github.com/heroku) . [Este es el enlace a la API realizada](https://oceanhackersapi.herokuapp.com/)
 | Entradas | Información |
 | --- | --- |
 | **/login** | Realiza una verificación del usuario y la contraseña |
