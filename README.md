@@ -1,7 +1,7 @@
 # Hackathon LaunchX HackTheOcean
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/OceanHackers/HackTheOcean/main/media/img/Ocean%20Hackers.png", width=600px height=200px>
+  <img src="https://user-images.githubusercontent.com/53382424/168632547-2e44b71b-2056-43b6-b743-fe9a5dbc67ba.png", width=400px height=400px>
 </p>
 
 Se ha detectado una amenza, que está avanzando rápidamente por los mares y oceános
