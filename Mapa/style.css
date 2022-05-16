@@ -2,28 +2,17 @@
 body{
     /*background-image:url("https://imagenes.20minutos.es/files/og_thumbnail/uploads/imagenes/2018/11/10/816158.jpg");*/
     background-color: #080241;
+    
 }
 
 
-/**************************************************Diseño del menu de navegación****************************************/
+/*cABECERA*/
 
-header ul {
-    /*Apariencia del listado*/
-    list-style-type: none; 
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    border: 1px solid #e7e7e7;
-    background-color: #f3f3f39a;
-}
-header li {
-    padding: 20px 0;
-    float: left;
-}
+
 
 h1{
     display: block;
-    color: #224ba3;
+    color: aliceblue;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 300;
     float: center;
@@ -34,27 +23,6 @@ h1{
 }
 
 
-header a, .section3 a {
-    text-align: right;
-    font-weight: 700;
-    display: block;
-    color: rgb(68, 67, 67);
-    float: center;
-    padding: 10px 50px;
-    text-decoration: none;
-}
-/* utilizamos Hover para que al pasar el mouse sobre las secciones no activas estas se identifiquen de un color de letra y un fondo*/
-header a:hover:not(.active) {
-    color: rgb(255, 255, 255);
-    background-color: #021d588f;
-}
-/*  cuando una seleción este activa esta se distinguira por el color que se tiene*/
-header a.active {
-    color: rgb(255, 255, 255);
-    background-color: #021d58;
-    border-radius: 5px;
-}
-/*******************************************Fin del diseño de la barra de navegación**************************************************************/
 
 
 /*Mapa*/
@@ -62,6 +30,8 @@ header a.active {
 .mapa{
     width: 60%;
     margin: auto;
+    top: 100px;
+    position: relative;
 }
 
 .mapa path{
@@ -71,42 +41,107 @@ header a.active {
 }
 
 .mapa :hover{
-    fill: rgba(3, 59, 20, 0.993);
+    fill: rgba(114, 8, 8, 0.993);
 }
 
 .mapa a{
     cursor: pointer;
 }
-
 /*Modal*/
-
-/*  modal ejemplo
-body, modal{
-    width: 100%;
-    height: 100%;
+ ul{
+    margin: 0;
+    padding: 0;
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
-.modal{
-    position: fixed;
-    top: 0;
-    left: 0;
-    background: rgba(0,0,0,0.5);
-    transition: all 500ms ease;
+
+ ul li{
+    position: absolute;
+    bottom: 80px;
+    top: 350px;
+    left: 520px;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(214, 9, 9, 0.445);
+    margin: 0 20px;
+    border-radius: 50%;
+    transition: 0.5s;
+    cursor: pointer;
 }
-.contenedor{
+
+ ul li:hover{
+    background: #3097bf;
+    box-shadow: 0 0 0 4px #fff,
+                0 0 0 6px #3097bf;
+}
+
+ul li .content{
+    position: absolute;
+    bottom:55px ;
     width: 400px;
-    height: 300px;
-    margin: auto;
-    background: #e7e7e7;
-    box-shadow: 1px 7px 25px rgba(0,0,0,0.6);
+    background: #111;
+    padding: 20px;
+    border-radius: 15px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    transform: translateX(-50%) translateY(-50px);
 }
-.contenededor h1{
-    padding: 10px;
-    background: #224ba3;
-    color: aliceblue;
+
+
+ ul li .content:before{
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: #111;
+    bottom: -15px;
+    left: 215px;
+    transform: rotate(45deg);
 
 }
-.lb*/
 
+ ul li:hover .content{
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(-50%) translateY(0px);
+}
+
+ ul li h3,
+ul li p{
+    position: relative;
+    color: #fff;
+    text-align: justify;
+}
+
+ ul li img{
+    position:relative;
+    width: 100%;
+    border-radius: 15px;
+}
+
+ ul li button{
+    position: relative;
+    left: 100px;
+    height: 40px;
+    width: 50%;
+    text-align: center;
+    border-radius: 15px;
+    background-color: red;
+    color: #fff;
+    font-size: 20px;
+}
+
+ ul li button:hover{
+    transform: scale(1.1);
+    
+}
+
+ .container{
+    position:absolute;
+    top: 10px;
+    width: 400px;
+    height: 450px;
+    border-radius: 10px;
+    background:#30bf3c;
+}
