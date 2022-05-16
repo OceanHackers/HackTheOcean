@@ -1,0 +1,217 @@
+{
+    "images":[
+        {
+            "description": "0",
+            "url": "https://images.unsplash.com/photo-1590523741831-ab7e8b8f9c7f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+        },
+
+        {
+            "description": "0",
+            "url": "https://images.unsplash.com/photo-1590523741831-ab7e8b8f9c7f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+        },
+
+        {
+            "description": "0",
+            "url": "https://images.unsplash.com/photo-1590523741831-ab7e8b8f9c7f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+        },
+
+        {
+            "description": "0",
+            "url": "https://images.unsplash.com/photo-1590523741831-ab7e8b8f9c7f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+        },
+
+        {
+            "description": "0",
+            "url": "https://images.unsplash.com/photo-1590523741831-ab7e8b8f9c7f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+        },
+
+        {
+            "description": "0",
+            "url": "https://images.unsplash.com/photo-1590523741831-ab7e8b8f9c7f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+        }
+    ],
+
+
+    "missions": [
+        {
+            "coord_x": 1,
+            "coord_y": 1,
+            "title": "Contaminación de Maruata, Michoacán",
+            "id_image": 1
+        },
+
+        {
+            "coord_x": 1,
+            "coord_y": 1,
+            "title": "Contaminación de Mazatlán, Sinaloa",
+            "id_image": 1
+        },
+
+        {
+            "coord_x": 1,
+            "coord_y": 1,
+            "title": "Contaminación de Guerrero, Acapulco",
+            "id_image": 1
+        },
+
+        {
+            "coord_x": 1,
+            "coord_y": 1,
+            "title": "Contaminación de Nayarit, Sayulita",
+            "id_image": 1
+        },
+
+        {
+            "coord_x": 1,
+            "coord_y": 1,
+            "title": "Contaminación de Playa Hermosa, Baja California",
+            "id_image": 1
+        },
+
+        {
+            "coord_x": 1,
+            "coord_y": 1,
+            "title": "Contaminación de Golfo de México",
+            "id_image": 1
+        }
+    ],
+
+
+    "challenges": [
+        {
+            "id_mission": 1,
+            "title": "Problemas de contaminación",
+            "content": "Niveles de Dinophysis Caudata superiores a los permitidos, no aptos para el consumo de mariscos.",
+            "bibliography": "https://www.elsoldemorelia.com.mx/local/declaran-veda-por-marea-roja-en-maruata-y-caleta-de-campos-8107854.html"
+        },
+        {
+            "id_mission": 2,
+            "title": "Problemas de contaminación",
+            "content": "Mazatlán, Sinaloa.- La problemática de la contaminación en playas mazatlecas permanece con alta presencia y de acuerdo con la Operadora y Administradora de Playas de Mazatlán, el tiradero de bachichas y utensilios de unicel son los contaminantes que se encuentran en mayor cantidad",
+            "bibliography": "https://www.elsoldemazatlan.com.mx/local/playas-de-mazatlan-registran-una-gran-cantidad-de-basura-2909938.html#:~:text=Mazatl%C3%A1n%2C%20Sinaloa.,se%20encuentran%20en%20mayor%20cantidad."
+        },
+
+        {
+            "id_mission": 3,
+            "title": "Problemas de contaminación",
+            "content": "Derrame de aguas negras, afectando la calidad del agua de mar debido principalmente a la bacteria “Enterococcus Faecalis”.  Los Residuos Sólidos Urbanos son otra fuente que afecta negativamente las costas de las playas ",
+            "bibliography": "https://bajopalabra.com.mx/acapulco-paraiso-infeccioso-por-la-contaminacion-ambiental-gobierno-sin-plan-ni-rumbo"
+        },
+
+        {
+            "id_mission": 4,
+            "title": "Problemas de contaminación",
+            "content": "Según la COFEPRIS se encontraron niveles superiores de 200 enterococos (microrganismos infecciosos producidos, entre otros por heces fecales) por 100 mililitros de agua de mar o dulce, que ponen en riesgo a las personas",
+            "bibliography": "https://metropolibahia.com/2021/12/23/sayulita-entre-las-playas-mas-contaminadas-de-mexico-segun-cofepris/"
+        },
+
+        {
+            "id_mission": 5,
+            "title": "Problemas de contaminación",
+            "content": "Según explicó  el titular de la Comisión Estatal de la Coepris, esta playa alcanzó el límite máximo permitido de esterococos, es tanta su concetración que la playa fué cerrada hasta nuevo aviso",
+            "bibliography": "https://www.lavozdelafrontera.com.mx/local/playa-hermosa-cerrada-por-enterococos-en-ensenada-8137540.html"
+        },
+
+        {
+            "id_mission": 6,
+            "title": "Problemas de contaminación",
+            "content": "El derramamiento de petróleo es uno de los principales problemas, afectando a las especies marinas, por ejemplo a las tortugas marinas ingieren estos derrames al salir a respirar, también todos los huevos de las especies que tienen contacto con el petróleo mueren o enferman pronto. También altera la fotosíntesis de la flora marina.\nExiste una zona denominada “La zona muerta” ya que la contaminación causada por nutrientes, principalmente debido a las actividades agrícolas, afecta a los recursos costeros. Esta zona tiene el tamaño de 15 veces la ciudad de México o casi la misma extensión de El Salvador ",
+            "bibliography": "https://www.bbc.com/mundo/noticias-40820648"
+        }
+    ],
+
+
+    "challenges_images":[
+        {
+            "id_challenge": 1,
+            "id_image": 1
+        },
+
+        {
+            "id_challenge": 2,
+            "id_image": 1
+        },
+
+        {
+            "id_challenge": 3,
+            "id_image": 1
+        },
+
+        {
+            "id_challenge": 4,
+            "id_image": 1
+        },
+
+        {
+            "id_challenge": 5,
+            "id_image": 1
+        },
+
+        {
+            "id_challenge": 6,
+            "id_image": 1
+        }
+    ],
+
+
+    "users":[
+        {
+            "name": "user test",
+            "lastname": "last name user test",
+            "email": "oceanhackersemail.com",
+            "password": "AEADA",
+            "id_image": 1
+        }
+    ],
+
+    "resources":[
+        {
+            "id_mission": 1,
+            "title": "Maruata, Michoacán",
+            "content": "Playa ubicada en el estado de Michoacán, rodeada de cerros y acantilados que parecieran protegerla, es un sitio que conserva el lujo de los lugares que aún no han sido alterados por el hombre, cuenta con atracciones naturales para contemplar cómo el dedo de Dios, zonas protegidos como el centro Ecoturístico Colola donde se puede contemplar el desove de tortugas marinas y actividades como el agradecimiento a la madre tierra, realizado desde 1995 por el grupo ambientalista Rainbow, que ha promovido las prácticas ecológicas, conservando la esencia de la vida silvestre",
+            "bibliography": "https://www.visitmexico.com/michoacan/maruata",
+            "id_image": 1
+        },
+
+        {
+            "id_mission": 2,
+            "title": "Mazatlán, Sinaloa",
+            "content": "Playas de arena dorada, mares de azul profundo, una infinita riqueza en fauna marina y natural te esperan en Mazatlán, Sinaloa, también conocida como la Perla del Pacífico. Ubicado al sur del estado, goza de la fortuna de un clima ideal durante todo el año, así como increíbles escenarios naturales",
+            "bibliography": "https://www.visitmexico.com/sinaloa/mazatlan",
+            "id_image": 1
+        },
+
+        {
+            "id_mission": 3,
+            "title": "Acapulco, Guerrero",
+            "content": "Playa icónica de México, conocida internacionalmente, dividida en tres zonas turísticas; tradicional, dorada y diamante, cada zona ofrece desde lo más tradicional como paseos en lancha, hasta hoteles selectos y resorts de lujo. Todas tienen una alta afluencia de turistas gran parte del año, sobre todo en temporada alta, sin embargo del mismo modo, la contaminación por diferentes factores afectan a estas playas ",
+            "bibliography": "https://www.visitmexico.com/guerrero/acapulco",
+            "id_image": 1
+        },
+
+        {
+            "id_mission": 4,
+            "title": "Sayulita, Nayarit",
+            "content": "Un pueblo mágico, popular entre los surf breaks más importantes del mundo que cuenta con experiencias desde su gastronomía hasta paisajes como el cerro del mono y experiencias como el retiro de yoga. Con una gran afluencia de turistas en temporada alta uno de sus problemas más comunes es la calidad del agua de mar ",
+            "bibliography": "https://www.rivieranayarit.com.mx/nuestros-pueblos/sayulita/",
+            "id_image": 1
+        },
+
+        {
+            "id_mission": 5,
+            "title": "Playa Hermosa, Baja California",
+            "content": "Ubicada en la parte sur de la bahía Ensenada, se ubica muy cerca del centro de la ciudad, cuenta con una arena muy clara y fina, ideal para disfrutar de actividades acuáticas, muy popular por su turismo, mismo que ha tenido que ser suspendido hasta nuevo aviso por las autoridades debido a problemas sanitarios",
+            "bibliography": "https://www.ensenada-baja-vacations.com/las-mejores-playas-de-ensenada.html",
+            "id_image": 1
+        },
+
+        {
+            "id_mission": 6,
+            "title": "Golfo de México",
+            "content": "El Golfo de México es parte del Océano Atlántico. En México cubre desde el estado de Tamaulipas hasta el de Yucatán. Tiene agua más caliente y es menos profundo que el Océano Pacífico y sus costas son más húmedas. Su agua circula en el sentido de las manecillas del reloj. En la región de la Península de Yucatán se encuentran los manglares más extensos del país ",
+            "bibliography": "https://www.paismaravillas.mx/movil/assets/pdf/libros/libroGolfoyCaribe.pdf",
+            "id_image": 1
+        }
+    ]
+
+}
