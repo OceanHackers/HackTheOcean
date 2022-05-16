@@ -36,18 +36,17 @@ sobre qué acciones tomar y adquirir inmunidad contra **el malware**, te invitam
 | TikTok | [Link al TikTok](https://vm.tiktok.com/ZMLc3VxX4/?k=1) |
 
 
-### Desarrollo de la solución
+## Desarrollo de la solución
 Nuestro equipo secreto de hackers, se basó en las siguientes tecnologías para atacar al malware que va apareciendo cada vez más y más por el mundo. Continua leyendo si te interesa conocer como trabajan nuestros hackers 👀.
 
 #### Base de datos en MySQL
-La base de datos fue implementada con mySQL y funcionando online en los servicios que ofrece el grupo de hackers conocido como @Azure . A continuación dejamos unas imagenes de como se ve la base de datos. Y su deploy:
+La base de datos fue implementada con mySQL y funcionando online en los servicios que ofrece el grupo de hackers conocido como [@Azure](https://github.com/azure) . A continuación dejamos unas imagenes de como se ve la base de datos. Y su deploy:
 ![image](https://user-images.githubusercontent.com/53382424/168626384-577861b7-8e1e-4745-af96-c84c12bd168c.png)
 ![image](https://user-images.githubusercontent.com/53382424/168626453-b91ad9b4-4bab-4458-be50-b1f698206008.png)
 ![image](https://user-images.githubusercontent.com/53382424/168626760-5cbf3e9b-c279-40b2-8e24-fbf382442c73.png)
 
 #### Backend (API con Node.js)
-Para realizar la conexión con dicha base de datos realizamos una API en **node.js**, la cual se intento subir a los servicios de @Azure , no obstante no hubo entendimiento y terminamos realizandolo con otros grupo de compañeros hackers conocidos como @Heroku . El siguiente es el enlace a la API realizada:
-https://oceanhackersapi.herokuapp.com/
+Para realizar la conexión con dicha base de datos realizamos una API en **node.js**, la cual se intento subir a los servicios de [@Azure](https://github.com/azure) , no obstante no hubo entendimiento y terminamos realizandolo con otros grupo de compañeros hackers conocidos como [@Heroku](https://github.com/heroku) . [El siguiente es el enlace a la API realizada](https://oceanhackersapi.herokuapp.com/)
 | Entradas | Información |
 | --- | --- |
 | **/login** | Realiza una verificación del usuario y la contraseña |
@@ -58,8 +57,8 @@ https://oceanhackersapi.herokuapp.com/
 | **/resources/id** | Regresa los recursos e información de la mision con el id enviado |
 
 #### Frontend (HTML, CSS, JS).
-La maquetación del proyecto fue realizado implementando las tecnologías web de toda la vida y su despliegue fue realizado con Github Pages:
-| Link a la pagina web | https://oceanhackers.github.io/HackTheOcean/ |
+La maquetación del proyecto fue realizado implementando las tecnologías web de toda la vida y su despliegue fue realizado con [@Github](https://github.com/github) Pages [(Este es el enlace a la página web)](https://oceanhackers.github.io/HackTheOcean/) .
 ![image](https://user-images.githubusercontent.com/53382424/168630387-1e0e505a-f2ab-46ee-b83d-449e316ddf54.png)
 
+# Actualizaciones
 Hasta la versión actual del proyecto, todavía falta implementar la conexión del frontend con el backend, y para ello nuestros hackers siguen trabajando arduamente para pronto tener los medios con los cuales atacar al malware.
