@@ -104,3 +104,7 @@ ul li button:hover{
     border-radius: 10px;
     background:#30bf3c;
 }
+.image-container{
+    height: 10rem;
+    width: 22rem;
+}

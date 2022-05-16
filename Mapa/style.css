@@ -8,10 +8,23 @@ body{
 
 /*cABECERA*/
 
-
+header ul {
+    /*Apariencia del listado*/
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f39a;
+}
+header li {
+    padding: 20px 0;
+    float: left;
+}
 
 h1{
     display: block;
+    /* color: #224ba3; */
     color: aliceblue;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 300;
@@ -23,6 +36,28 @@ h1{
 }
 
 
+header a, .section3 a {
+    text-align: right;
+    font-weight: 700;
+    display: block;
+    color: rgb(68, 67, 67);
+    float: center;
+    padding: 10px 50px;
+    text-decoration: none;
+}
+/* utilizamos Hover para que al pasar el mouse sobre las secciones no activas estas se identifiquen de un color de letra y un fondo*/
+header a:hover:not(.active) {
+    color: rgb(255, 255, 255);
+    background-color: #021d588f;
+}
+/*  cuando una seleción este activa esta se distinguira por el color que se tiene*/
+header a.active {
+    color: rgb(255, 255, 255);
+    background-color: #021d58;
+    border-radius: 5px;
+}
+/*******************************************Fin del diseño de la barra de navegación**************************************************************/
+
 
 
 /*Mapa*/
@@ -30,8 +65,8 @@ h1{
 .mapa{
     width: 60%;
     margin: auto;
-    top: 100px;
     position: relative;
+    top: 100px;
 }
 
 .mapa path{
