@@ -65,7 +65,7 @@
     /* position: absolute; */
     position: relative;
     padding: 2rem 2rem;
-    padding-top: 70px;
+    padding-top: 6rem;
     border-radius:15px ;
 }
 @media (min-width: 1200px) {
@@ -75,12 +75,13 @@
 }
 
 .logo{
-    width: 120px;
-    height: 120px;
+    width: 9rem;
+    height: 9rem;
     border-radius: 50%;
     position: absolute;
-    top: -60px;
-    left: calc(50% - 50px);
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .login h2{
