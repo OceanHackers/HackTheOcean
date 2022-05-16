@@ -9,7 +9,7 @@ Se ha detectado una amenza, que está avanzando rápidamente por los mares y oce
 que decidieron tomar acción y desarrollar una solución para evitar la propagación del intruso,
 lograron intervenir las señales de comunicación y realizaron una [transmisión](https://www.tiktok.com/@camarenaai/video/7098130719091821830?_t=8SLVu2Z6mX8&_r=1) para que las personas abran los ojos y conozcan el problema.
 
-##El malware
+## El malware
 Gracias a la red de inteligencia proporcionada por **HackTheOcean**, se han logrado conocer las
 características de este malware el cuál actúa en grupos grandes con sigilo, su modus operandi consiste 
 escogiendo una zona que sea popular en la que pueda dejar sus desechos y gastar los recursos disponibles,
@@ -17,7 +17,7 @@ aprovechando la ignorancia de los grupos a su favor, su mayor miedo es que te ha
 una [presentación](https://www.canva.com/design/DAFAsNz8w00/3l_UBe1R1rZp5bMMzp5L3Q/view?website#2:caracter-sticas-es-altamente-peligroso.-se-infiltra-de-forma-r-pida-entre-las-zonas-m-s-vulnerables.-se-mueve-en-grupos) 
 como la que **Ocean Hackers** ha preparado para ti.
 
-##Se parte del cambio
+## Se parte del cambio
 En Ocean Hack hemos desarrollado una solución, con la que las personas podrán interctuar, mediante 
 [pantallas atractivas](https://www.figma.com/file/exfIiT36KUctyYsiOetjrG/HackTheOcean---Design-concept?node-id=0%3A1)
 para captar la atención de las personas y que mediante una solución de facil acceso, puedan informarse
