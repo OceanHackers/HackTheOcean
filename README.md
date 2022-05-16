@@ -32,5 +32,28 @@ sobre qué acciones tomar y adquirir inmunidad contra **el malware**, te invitam
 | Informacion | URL |
 | --- | --- |
 | Ocean Hackers Presentation | [Link a la Presentacion](https://www.canva.com/design/DAFAsNz8w00/3l_UBe1R1rZp5bMMzp5L3Q/view?website#2:un-malware-se-ha-infiltrado-en-nuestros-oc-anos-y-esta-comprometiendo-su-sistema) |
-| Desinng Concept | [Link a Figma](https://www.figma.com/file/exfIiT36KUctyYsiOetjrG/HackTheOcean---Design-concept?node-id=0%3A1) |
+| Desing Concept | [Link a Figma](https://www.figma.com/file/exfIiT36KUctyYsiOetjrG/HackTheOcean---Design-concept?node-id=0%3A1) |
 | TikTok | [Link al TikTok](https://vm.tiktok.com/ZMLc3VxX4/?k=1) |
+
+
+### Desarrollo de la solución
+Nuestro equipo secreto de hackers, se basó en las siguientes tecnologías para atacar al malware que va apareciendo cada vez más y más por el mundo. Continua leyendo si te interesa conocer como trabajan nuestros hackers 👀.
+
+#Base de datos en MySQL
+La base de datos fue implementada con mySQL y funcionando online en los servicios que ofrece el grupo de hackers conocido como @Azure . A continuación dejamos unas imagenes de como se ve la base de datos. Y su deploy:
+![image](https://user-images.githubusercontent.com/53382424/168626384-577861b7-8e1e-4745-af96-c84c12bd168c.png)
+![image](https://user-images.githubusercontent.com/53382424/168626453-b91ad9b4-4bab-4458-be50-b1f698206008.png)
+![image](https://user-images.githubusercontent.com/53382424/168626760-5cbf3e9b-c279-40b2-8e24-fbf382442c73.png)
+
+#Backend (API)
+Para realizar la conexión con dicha base de datos realizamos una API en **node.js**, la cual se intento subir a los servicios de @Azure , no obstante no hubo entendimiento y terminamos realizandolo con otros grupo de compañeros hackers conocidos como @Heroku . El siguiente es el enlace a la API realizada:
+https://oceanhackersapi.herokuapp.com/
+| Entradas | Información |
+| --- | --- |
+| **/login** | Realiza una verificación del usuario y la contraseña |
+| **/users** | Regresa todos los usuarios registrados |
+| **/missions** | Regresa todas las misiones actuales |
+| **/missions/id** | Regresa la mision con el id enviado |
+| **/challenges/id** | Regresa el desafío con el id enviado |
+| **/resources/id** | Regresa los recursos e información de la mision con el id enviado |
+
