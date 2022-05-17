@@ -1,46 +1,50 @@
-body{
+/* body{
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
     background: #fff;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+} */
 
-ul{
+
+.mission-tooltips{
     margin: 0;
     padding: 0;
-    display: flex;
 }
 
-ul li{
+.mission-tooltips li{
     position: absolute;
-    bottom: 80px;
+    /*bottom: 80px; ---------------------> BORRAR CUANDO ESTE LISTO PARA USARSE*/
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+    width: 2rem;
+    height: 2rem;
+
     list-style: none;
-    width: 20px;
-    height: 20px;
-    background: #777;
-    margin: 0 20px;
     border-radius: 50%;
     transition: 0.5s;
     cursor: pointer;
+    background: rgba(222, 222, 222, 0.256);
+
+
 }
 
-ul li:hover{
-    background: #3097bf;
+.mission-tooltips li:hover{
+    background: #3096bf6a;
     box-shadow: 0 0 0 4px #fff,
                 0 0 0 6px #3097bf;
 }
 
-ul li .content{
+.mission-tooltips li .content{
     position: absolute;
-    bottom:55px ;
+    left: 50%;
+    bottom: 55px;
     width: 400px;
     background: #111;
-    padding: 20px;
-    border-radius: 15px;
+    padding: 1rem;
+    border-radius: 2rem;
+
+
     visibility: hidden;
     opacity: 0;
     transition: 0.5s;
@@ -48,38 +52,43 @@ ul li .content{
 }
 
 
-ul li .content:before{
+.mission-tooltips li .content:before{
     content: '';
-    position: absolute;
     width: 30px;
     height: 30px;
     background: #111;
+    
+    z-index: -2;
+    position: absolute;
     bottom: -15px;
-    left: 215px;
-    transform: rotate(45deg);
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
 
 }
 
-ul li:hover .content{
+.mission-tooltips li:hover .content{
     visibility: visible;
     opacity: 1;
     transform: translateX(-50%) translateY(0px);
+    cursor: auto;
 }
-
-ul li h3,
-ul li p{
+.mission-tooltips h3{
+    font-family: "Roboto Slab", serif;
+}
+.mission-tooltips b{
+    font-family: 'M PLUS Code Latin', sans-serif;
+}
+.mission-tooltips p{
+    font-family: "Coda", serif;
+}
+.mission-tooltips li h3,
+.mission-tooltips li p{
     position: relative;
     color: #fff;
     text-align: justify;
 }
 
-ul li img{
-    position:relative;
-    width: 100%;
-    border-radius: 15px;
-}
-
-ul li button{
+.mission-tooltips li button{
     position: relative;
     left: 100px;
     height: 40px;
@@ -89,22 +98,38 @@ ul li button{
     background-color: red;
     color: #fff;
     font-size: 20px;
+    cursor: pointer;
 }
 
-ul li button:hover{
+.mission-tooltips li button:hover{
     transform: scale(1.1);
     
 }
 
 .container{
-    position:absolute;
-    top: 10px;
-    width: 400px;
-    height: 450px;
+    /* position:absolute; */
+    box-sizing: border-box;
+    width: 100% ;
+    height: 100%;
     border-radius: 10px;
-    background:#30bf3c;
+    padding: 1rem;
+    background:#2b8f19;
 }
-.image-container{
+.mission-tooltips li .image-container{
     height: 10rem;
-    width: 22rem;
+    width: calc(100% - 2rem);
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.mission-tooltips li .image-container img{
+    position: relative;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.mission-tooltips li .alert img{
+    height: 2rem;
 }

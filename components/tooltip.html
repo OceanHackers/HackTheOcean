@@ -4,24 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../media/css/general.css">
     <link rel="stylesheet" href="../media/css/styletooltip.css">
     <title>Document</title>
 </head>
 <body>
-    <ul>
+    <ul class="mission-tooltips">
         <li>
             <div class="content">
-                <div class="container"></div>
-                <h3>CONTAMINACIÓN DE LA PLAYA DE MAZATLAN</h3>
-                <div class="image-container">
-                    <img class="img-fluid" src="../media/img/Ocean Hackers.png">
+                <div class="container">
+                    <div class="alert">
+                        <img class="img-fluid" src="../media/img/alert.svg">
+                    </div>
+                    <h3 id="title">CONTAMINACIÓN DE LA PLAYA DE MAZATLAN</h3>
+                    <div class="image-container">
+                        <img class="img-fluid" id="image" src="../media/img/Ocean Hackers.png">
+                    </div>
+                    <p id="species">
+                        <b>Especies:</b> Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                        Repellendus molestias quasi tenetur repellat perspiciatis 
+                        exercitationem.
+                    </p>
+                    <p id="challenges">
+                        <b> Descripción de la amenaza:</b>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Nam soluta obcaecati voluptatibus
+                    </p> 
+                    <button id="button" value="1" onclick="console.log('Valor enviado:'+this.value)"> Ver Mision</button>
                 </div>
-                <p><b>Especies:</b>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                    Repellendus molestias quasi tenetur repellat perspiciatis 
-                    exercitationem.</p>
-                <p><b> Descripción de la amenaza:</b>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                     Nam soluta obcaecati voluptatibus </p> 
-                 <button> Ver Mision</button>   
                  
 
             </div>
