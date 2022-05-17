@@ -57,7 +57,7 @@ La base de datos fue implementada con mySQL y funcionando online en los servicio
 ![image](https://user-images.githubusercontent.com/53382424/168626453-b91ad9b4-4bab-4458-be50-b1f698206008.png)
 ![image](https://user-images.githubusercontent.com/53382424/168626760-5cbf3e9b-c279-40b2-8e24-fbf382442c73.png)
 
-#### Backend (API con Node.js)
+#### Backend (API con Node.js) [Enlace al repositorio de la API](https://github.com/OceanHackers/OceanHackersAPI)
 Para realizar la conexión con dicha base de datos realizamos una API en **node.js**, la cual se intento subir a los servicios de [@Azure](https://github.com/azure) , no obstante no hubo entendimiento y terminamos realizandolo con otros grupo de compañeros hackers conocidos como [@Heroku](https://github.com/heroku) . [Este es el enlace a la API realizada](https://oceanhackersapi.herokuapp.com/)
 | Entradas | Información |
 | --- | --- |
