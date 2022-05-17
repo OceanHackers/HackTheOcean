@@ -59,6 +59,8 @@ Para realizar la conexión con dicha base de datos realizamos una API en **node.
 #### Frontend (HTML, CSS, JS).
 La maquetación del proyecto fue realizado implementando las tecnologías web de toda la vida y su despliegue fue realizado con [@Github](https://github.com/github) Pages [(Este es el enlace a la página web)](https://oceanhackers.github.io/HackTheOcean/) .
 ![image](https://user-images.githubusercontent.com/53382424/168630387-1e0e505a-f2ab-46ee-b83d-449e316ddf54.png)
+![image](https://user-images.githubusercontent.com/53382424/168739335-636d2e52-3015-41f5-b5c6-c5d53a0d1598.png)
+![image](https://user-images.githubusercontent.com/53382424/168739291-5661d7a9-3595-404d-9d40-d7af3ed347ce.png)
 
 # Actualizaciones
 Hasta la versión actual del proyecto, todavía falta implementar la conexión del frontend con el backend, y para ello nuestros hackers siguen trabajando arduamente para pronto tener los medios con los cuales atacar al malware.
