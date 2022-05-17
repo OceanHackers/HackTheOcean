@@ -45,6 +45,8 @@ La maquetación del proyecto fue realizado implementando las tecnologías web de
 | --- | --- |
 | **/** | Página de login (Aún no se conecta con la validación de la api |
 | **/Mapa/mapa.html** | Página principal, se ve el mapa de las misiones (en implementación, no se han conectado todas las funciones) |
+
+
 ![image](https://user-images.githubusercontent.com/53382424/168630387-1e0e505a-f2ab-46ee-b83d-449e316ddf54.png)
 ![image](https://user-images.githubusercontent.com/53382424/168739335-636d2e52-3015-41f5-b5c6-c5d53a0d1598.png)
 ![image](https://user-images.githubusercontent.com/53382424/168739291-5661d7a9-3595-404d-9d40-d7af3ed347ce.png)
