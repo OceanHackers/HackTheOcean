@@ -39,6 +39,16 @@ sobre qué acciones tomar y adquirir inmunidad contra **el malware**, te invitam
 ## Desarrollo de la solución
 Nuestro equipo secreto de hackers, se basó en las siguientes tecnologías para atacar al malware que va apareciendo cada vez más y más por el mundo. Continua leyendo si te interesa conocer como trabajan nuestros hackers 👀.
 
+#### Frontend (HTML, CSS, JS).
+La maquetación del proyecto fue realizado implementando las tecnologías web de toda la vida y su despliegue fue realizado con [@Github](https://github.com/github) Pages [(Este es el enlace a la página web)](https://oceanhackers.github.io/HackTheOcean/) .
+| Rutas | Información |
+| --- | --- |
+| **/** | Página de login (Aún no se conecta con la validación de la api |
+| **/Mapa/mapa.html** | Página principal, se ve el mapa de las misiones (en implementación, no se han conectado todas las funciones) |
+![image](https://user-images.githubusercontent.com/53382424/168630387-1e0e505a-f2ab-46ee-b83d-449e316ddf54.png)
+![image](https://user-images.githubusercontent.com/53382424/168739335-636d2e52-3015-41f5-b5c6-c5d53a0d1598.png)
+![image](https://user-images.githubusercontent.com/53382424/168739291-5661d7a9-3595-404d-9d40-d7af3ed347ce.png)
+
 #### Base de datos en MySQL
 La base de datos fue implementada con mySQL y funcionando online en los servicios que ofrece el grupo de hackers conocido como [@Azure](https://github.com/azure) . A continuación dejamos unas imagenes de como se ve la base de datos. Y su deploy:
 ![image](https://user-images.githubusercontent.com/53382424/168626384-577861b7-8e1e-4745-af96-c84c12bd168c.png)
@@ -55,12 +65,6 @@ Para realizar la conexión con dicha base de datos realizamos una API en **node.
 | **/missions/id** | Regresa la mision con el id enviado |
 | **/challenges/id** | Regresa el desafío con el id enviado |
 | **/resources/id** | Regresa los recursos e información de la mision con el id enviado |
-
-#### Frontend (HTML, CSS, JS).
-La maquetación del proyecto fue realizado implementando las tecnologías web de toda la vida y su despliegue fue realizado con [@Github](https://github.com/github) Pages [(Este es el enlace a la página web)](https://oceanhackers.github.io/HackTheOcean/) .
-![image](https://user-images.githubusercontent.com/53382424/168630387-1e0e505a-f2ab-46ee-b83d-449e316ddf54.png)
-![image](https://user-images.githubusercontent.com/53382424/168739335-636d2e52-3015-41f5-b5c6-c5d53a0d1598.png)
-![image](https://user-images.githubusercontent.com/53382424/168739291-5661d7a9-3595-404d-9d40-d7af3ed347ce.png)
 
 # Actualizaciones
 Hasta la versión actual del proyecto, todavía falta implementar la conexión del frontend con el backend, y para ello nuestros hackers siguen trabajando arduamente para pronto tener los medios con los cuales atacar al malware.
