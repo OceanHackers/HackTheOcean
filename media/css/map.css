@@ -5,9 +5,15 @@ body{
     
 }
 
+/*Informacion OceanHackers API*/
+.Informacion div#missionID{
+    color: white;
+}
+.Informacion div#missionTitle{
+    color: white;
+}
 
 /*cABECERA*/
-
 header ul {
     /*Apariencia del listado*/
     list-style-type: none; 
