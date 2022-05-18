@@ -17,9 +17,15 @@
             <h1>ZONAS ATACADAS</h1>
         </header>
         
-
-
-
+        <!-- Consumir la API-->
+        <div class="Informacion">
+            <input type="text" placeholder="Missions 1-6" id="idMission" name="idMission"><br>
+            <div id="missionID"></div>
+            <div id="missionTitle"></div><br>
+            <img src="../media/img/Ocean Hackers Logo.png" alt="Mission" id="missionImg" width="150px"><br>
+            <button onclick="fetchMissions()">Buscar</button>
+        </div>
+        
         <div class="mapa"> <!--Imagne SVG del mapa-->
             <ul class="mission-tooltips" id="missions-container-js">
                 <li id="mission">
@@ -156,7 +162,10 @@
                 </circle>
                </svg>
         </div>
-        
-        <script src="../js/api.js"></script>
     </body>
+
+    <footer>
+        <script src="../js/api.js"></script>
+    </footer>
+
 </html>
